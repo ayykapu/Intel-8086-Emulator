@@ -1,4 +1,4 @@
-﻿using Microsoft.Win32;
+using Microsoft.Win32;
 using System;
 using System.Runtime.CompilerServices;
 
@@ -677,7 +677,8 @@ namespace Emulator
                                     displayHexRegistry(AX, BX, CX, DX);
                                 }
                                 Console.WriteLine("Polecenie nieznane, sprobuj ponownie.\nWybierz pierwszy rejestr do dodania.\n(AX, BX, CX, DX)");     ///ADD - unknown command
-                                operation = Console.ReadLine().ToUpper();
+                                sumOperation1 = Console.ReadLine().ToUpper();
+                                
                             }
                         } while (true);
                         Console.Clear();
@@ -838,7 +839,7 @@ namespace Emulator
                                     displayHexRegistry(AX, BX, CX, DX);
                                 }
                                 Console.WriteLine("Polecenie nieznane, sprobuj ponownie.\nWybierz pierwszy rejestr do odjecia.\n(AX, BX, CX, DX)");     ///SUB - unknown command
-                                operation = Console.ReadLine().ToUpper();
+                                subOperation1 = Console.ReadLine().ToUpper();
                             }
                         } while (true);
                         Console.Clear();
