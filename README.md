@@ -1,0 +1,1 @@
+(PL) Emulator procesora Intel 8086. Program po uruchomieniu pyta czy zasymulowane rejestry mają zostać uzupełnione wartościami wybranymi przez użytkownika, czy wygenerowane losowo. Następnie, od użytkownika zależy w jakim systemie liczbowym mają zostać wyświetlone wartości. Potem należy wybrać jedną z 8 dostępnych operacji, kolejno następuje loop.
